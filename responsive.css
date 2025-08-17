@@ -1,0 +1,136 @@
+/* Global Responsive Adjustments */
+@media (max-width: 1200px) {
+  nav {
+    padding: 15px 30px;
+  }
+  .hero {
+    padding: 60px 30px;
+  }
+  .hero-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-text, .hero img {
+    max-width: 100%;
+  }
+  .clients, .features, .stats-section, .content-cards {
+    padding: 40px 20px;
+  }
+  .feature-cards {
+    gap: 30px;
+  }
+}
+
+/* Tablets (max-width: 900px) */
+@media (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+  nav .logo img {
+    margin-left: 0;
+    width: 100px;
+  }
+  .nav-right {
+    flex-direction: column;
+    margin-right: 0;
+    gap: 15px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .clients .client-logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .feature-card {
+    width: 100%;
+    max-width: 350px;
+  }
+  .stats-content {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card {
+    width: 90%;
+    height: auto;
+  }
+  .card-content {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 20px;
+  }
+  .contact img, .contact form {
+    width: 100%;
+  }
+  footer .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  footer input[type="text"], footer button {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-text p, .content-cards p {
+    font-size: 0.9rem;
+  }
+  .feature-card h3, .stat h3 {
+    font-size: 1.2rem;
+  }
+  .stat i {
+    font-size: 40px;
+  }
+  .card-content p {
+    font-size: 18px;
+  }
+  .card-content a {
+    font-size: 22px;
+  }
+  .clients h2, .features h2, .content-cards h2 {
+    font-size: 1.5rem;
+  }
+  nav ul li {
+    font-size: 0.9rem;
+  }
+  nav .btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+  .contact input, .contact textarea, .contact button {
+    font-size: 0.9rem;
+  }
+}
